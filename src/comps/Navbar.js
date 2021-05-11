@@ -1,14 +1,13 @@
 import React from 'react';
-import {AppBar, TypographyVariant} from "@material-ui/core";
+import {AppBar, Typography, TypographyVariant} from "@material-ui/core";
 
 function Navbar() {
     return (
         <>
-            <AppBar color='secondary'>
-            <div className="logo">M.O.</div>
-                <TypographyVariant  >
+            <AppBar style={{backgroundColor: 'white'}} className='nav' >
+                <Typography variant='h3' color='initial' className='nav-title' >
                    портфолио
-                </TypographyVariant>
+                </Typography>
             </AppBar>
         </>
     );
