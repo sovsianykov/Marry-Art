@@ -13,7 +13,9 @@
   max-width: 1400px;
   border: 1px solid black;
   display: flex;
-  margin: 10px auto ;
+  margin: 0 auto ;
+  padding: 20px;
+  background: white;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -23,5 +25,37 @@
   margin-top: 100px;
   height: 600px;
 background: url("../assets/header-bg.jpg") no-repeat center center/cover;            
+
+}
+.nav {
+  height: 80px;
+
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+   .nav_title {
+     font-size: 30px;
+       line-height: 80px;
+      
+     font-weight: 300;
+
+     letter-spacing: .07em;
+     color: #030357;
+     font-family: "Noto Serif", serif;
+   }
+   .list {
+     display: inline-flex;
+
+   }
+
+
+
+
+
+
+
 
 }
