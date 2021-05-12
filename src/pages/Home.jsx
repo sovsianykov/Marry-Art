@@ -8,11 +8,8 @@ import Footer from "../comps/Footer";
 const Home = () => {
     return (
         <div className='page_container'>
-            <Navbar/>
             <Header/>
-            <ToolHeadline/>
             <HeroText/>
-            <Footer/>
         </div>
     );
 };

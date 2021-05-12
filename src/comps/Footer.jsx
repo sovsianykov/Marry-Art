@@ -1,13 +1,13 @@
 import React from 'react';
 import {Button} from "@material-ui/core";
-import {FaceOutlined, Instagram, Telegram} from "@material-ui/icons";
+import {Facebook, FaceOutlined, Instagram, Telegram} from "@material-ui/icons";
 import './styles.scss'
 
 const Footer = () => {
     return (
         <div className='footer_container'>
             <Button variant='text' >
-                <FaceOutlined/>
+                <Facebook/>
             </Button>
             <Button variant='text' >
                 <Instagram/>

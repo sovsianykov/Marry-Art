@@ -10,14 +10,21 @@
 
 /* base styles & title */
 body {
-
   /*background: #d6937f;*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Noto Serif", serif;
   color: var(--secondary);
 }
 .App{
-  max-width: 1400px;
+  width: 100%;
   margin: 0 auto;
+  min-height: 85vh;
+  /*background: url("./assets/bg1.jpg") no-repeat center center/cover;*/
+  background: linear-gradient(white,orange);
+
+
 }
 .nav {
   display: flex;
