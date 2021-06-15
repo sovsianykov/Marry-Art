@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from "@material-ui/core";
-import {Facebook, FaceOutlined, Instagram, Telegram} from "@material-ui/icons";
+import {Facebook, Instagram, Telegram} from "@material-ui/icons";
 import './styles.scss'
 
 const Footer = () => {
