@@ -20,8 +20,7 @@ body {
 .App{
   width: 100%;
   margin: 0 auto;
-  min-height: 85vh;
-  /*background: url("./assets/bg1.jpg") no-repeat center center/cover;*/
+  height: 1000px;
   background: linear-gradient(white,orange);
 
 

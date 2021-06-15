@@ -1,16 +1,21 @@
 import React from 'react';
 import './styles.scss'
-import Navbar from "../comps/Navbar";
 import Header from "../comps/Header";
-import ToolHeadline from "../comps/ToolHeadline";
 import HeroText from "../comps/HeroText";
-import Footer from "../comps/Footer";
+import {Grid} from "@material-ui/core";
+import ImageGrid from "../comps/ImageGriid";
 const Home = () => {
     return (
+        <>
         <div className='page_container'>
-            <Header/>
-            <HeroText/>
+            <Grid container justify='center' >
+                    <Header/>
+                    <HeroText/>
+                    <ImageGrid/>
+            </Grid>
         </div>
+        </>
+
     );
 };
 

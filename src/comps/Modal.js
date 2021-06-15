@@ -6,7 +6,7 @@ const Modal = ({ selectedImage , setSelectedImage }) => {
     const handleClick = useCallback((e)=>{
         if (e.target.classList.contains('backdrop')) {
             setSelectedImage(null)
-        }},[selectedImage])
+        }},[setSelectedImage])
     return (
         <motion.div className='backdrop' onClick={handleClick}
              initial={{ opacity : 0 }}
