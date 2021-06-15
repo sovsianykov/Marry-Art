@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <>
              <AppBar style={{backgroundColor: 'white'}} className='nav'  >
-
+                 <h4 className='nav_title'> <span>M</span>ary <span>A</span>rt</h4>
                  {/*<ul className="list">*/}
                  {/*    <ListItem button component={Link} className='links'>главная</ListItem>*/}
                  {/*    <ListItem button component={Link} className='links'>обо мне</ListItem>*/}

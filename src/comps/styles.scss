@@ -67,13 +67,15 @@ background: url("../assets/header-bg.jpg") no-repeat center center/cover;
       justify-content: space-between;
    .nav_title {
      font-size: 30px;
-       line-height: 80px;
-      
+       line-height: 5px;
      font-weight: 300;
-
+      height: 80px;
      letter-spacing: .07em;
      color: #030357;
      font-family: "Noto Serif", serif;
+     span {
+       color: #ef1405;
+     }
    }
    .list {
      display: inline-flex;
