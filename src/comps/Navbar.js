@@ -1,5 +1,5 @@
 import React from 'react';
-import {AppBar, Typography, Button, Link, ListItem} from "@material-ui/core";
+import {AppBar } from "@material-ui/core";
 import './styles.scss'
 
 function Navbar() {
