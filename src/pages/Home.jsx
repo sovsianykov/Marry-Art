@@ -10,7 +10,7 @@ const Home = () => {
         <div className='page_container'>
             <Grid container justify='center' >
                     <Header/>
-                    <HeroText/>
+                    {/*<HeroText/>*/}
                     <ImageGrid/>
             </Grid>
         </div>

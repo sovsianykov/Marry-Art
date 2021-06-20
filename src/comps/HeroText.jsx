@@ -3,15 +3,12 @@ import {Typography} from "@material-ui/core";
 import './styles.scss'
 const HeroText = () => {
     return (
-        < Typography variant='h6'   className='hero_text_container'>
-            ffhgf  fhfgf ggfffffff gfffffffffff fgfgfgf  g fgffff fff
-            ffhgf  fhfgf ggfffffff gfffffffffff fgfgfgf  g fgffff fff
-            ffhgf  fhfgf ggfffffff gfffffffffff fgfgfgf  g fgffff fff
-            ffhgf  fhfgf ggfffffff gfffffffffff fgfgfgf  g fgffff fff
-            ffhgf  fhfgf ggfffffff gfffffffffff fgfgfgf  g fgffff fff
-            ffhgf  fhfgf ggfffffff gfffffffffff fgfgfgf  g fgffff fff
+        < Typography variant='h6'  align='center'  className='hero_text_container'>
+            Привет, я Мери Овсяникова. <br/>
+            Профессионально занимаюсь иллюстрацией,<br/>
+            рисую  традиционными материалами и CG
         </Typography>
     );
 };
 
-export default HeroText ;
+export default HeroText
